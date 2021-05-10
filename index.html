@@ -1,0 +1,266 @@
+<html lang="en">
+    <head>
+        <head>
+            <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+            <script type="text/javascript">
+            $(window).on('scroll', function(){
+                function vhToPixels (vh) {
+                    return Math.round(window.innerHeight / (100 / vh)) + 'px';
+                }
+                if($(window).scrollTop() > 0){
+                    $("nav").addClass('black');
+                }
+                else {
+                    $("nav").removeClass('black');
+                }
+            })
+            </script>
+        
+        
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+            <link rel="stylesheet" type="text/css" href="bootstrap_responsive.css"> 
+            
+            <!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        
+            <!-- jQuery library -->  
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+            <!-- Popper JS -->  
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        
+            <!-- Latest compiled JavaScript -->     
+            <script src="caroufredsel.js" type="text/javascript"></script>   
+            
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+            <meta charset="UTF-8">
+            <meta name="viewport" cotent="width=device-width, initial-scale=1.0">
+            <title>Mahan Sharifi-Ghazvini</title>
+            <link rel="stylesheet" href="style2.css">
+
+            <style>
+                .wow {
+                    text-align: center;
+                }
+            </style>
+    </head>
+    <body>
+        <!--Header Buttons-->
+        <nav class="">
+            <ul>
+               <li><a href="">Home</a></li>
+               <li><a href="">Resume</a></li>
+               <li><a href="">Github</a></li>
+           </ul>     
+        </nav>
+        <!--Header Buttons Finished-->
+        
+        <section class="pages">
+            <div class="right">
+                <div class="container">
+                    <!--Destination Links to page(DLP)-->
+                    <div id="p"></div>
+                    <div class="DLP">
+                        <p>Tech Projects/Experiences</p>
+                        <li><a class="blue">Personal Website as seen :) (2021)</a></li>
+                        <li><a href="#dest1">Electronic Dice (2020)</a></li>
+                        <li><a href="#dest2">Visual Basics Math Calculator (2019)</a></li>
+                        <li><a href="#dest3">High Voltage Lab Tenureship (January 2019 - September 2019)</a></li>
+                        <li><a href="#dest4">First Robotics Programmer for Team 7722 (2018-2020)</a></li>
+                        
+                    </div>
+                    <div class="DLP">
+                        <p>None-Related Tech Projects/Experiences</p>
+                        <li><a href="">Part Time Coach for Football For The World Academy (2018 - Present)</a></li>
+                        <li><a href="">Kitchener Youth Action Council (KYAC) - Co-chair (2019 - 2020), Member (2018 - 2019)</a></li>
+                    </div>
+                    <!--DLP END-->
+
+                    
+
+                    <!--Projects-->
+
+                    <!--DLP One-->
+                    <div id="dest1"></div>
+                    <!--Electronic Dice Created-->
+                    <div class="quote">
+                        <spam>Electronic Dice - Personal Project <p>Janaury 2020</p></spam>
+                        <p>Soldered a 555 counter, 4017 chip, resistors, diodes, and LEDs after having designed a schematic 
+                            diagram to organize the different pathways. The 555 counter randomized the dice so everytime the button was pressed
+                            a different amount of LEDs from 1-7 would light up</p>
+                            <p class="wow"><img src="images/ED.jpg" class="responsive"></p>
+                        
+                        <p class="caption"><br>Photo: Electronic Dice</p>
+                    </div>
+                    <!--Electronic Dice Finished-->
+
+                    <!--DLP Two-->
+                    <div id="dest2"></div>
+                    <!--Visual Basics Created-->
+                    <div class="quote2">
+                        <spam>Visual Basics Math Calculator<p>Janaury 2020</p></spam>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero tempora,
+                             laudantium quibusdam fugiat corrupti praesentium dolorem magnam, doloremque 
+                              molestias quasi nostrum repudiandae placeat, nesciunt commodi voluptatum pariatur 
+                             est enim. Obcaecati.
+                            </p>
+                            <div class="slide-pager">
+                                <div class="slides">
+                                    <!--Buttons start-->
+                                    <input type="radio" name="radio-btn" id="radio1">
+                                    <input type="radio" name="radio-btn" id="radio2">
+                                    <input type="radio" name="radio-btn" id="radio3">
+                                    <input type="radio" name="radio-btn" id="radio4">
+                                    <!--Radio Buttons start-->
+                                    <!--Images in Slide-->
+                                    <div class="slide first">
+                                         <img src="images/recip VBA.jpg" class="responsive" alt="">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/quad grid.jpg" class="responsive" alt="">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images/radical grid.jpg" class="responsive" alt="">
+                                    </div>
+                                    <div class="slide">
+                                       <img src="images/reciprocal grid.jpg" class="responsive" alt="">
+                                    </div>
+                                </div>
+                                <!--Slides Finished-->
+                                <!--manuel navigation start-->
+                                <div class="navigation-manual">
+                                    <label for="radio1" class="manuel-btn"></label>
+                                    <label for="radio2" class="manuel-btn"></label>
+                                    <label for="radio3" class="manuel-btn"></label>
+                                    <label for="radio4" class="manuel-btn"></label>
+                                </div>   
+                                <!--manuel navigation end-->
+                            </div>
+                            <p class="caption"><br>Photo: </p>
+                            <!--Slide Pager Finished-->
+                            
+                    </div>
+                    <!--Visual Basics Finished-->
+
+                    <div id="dest3"></div>
+                    <!--High Voltage Lab Created-->
+                    <div class="quote">
+                        <spam>High Voltage Lab Tenureship - University of Waterloo<p>Janaury 2020 - July 2020</p></spam>
+                        <p>During highschool I shadowed under an Electrical Engineering professor at the University of Waterloo’s 
+                                        High Voltage Lab began when I took the initiative to present my agenda to the professor.  
+                                        Soon I began learning the fundamentals of RLC (resistance, inductance, and capacitors), 
+                                        and implementing computer models of 
+                                        electromechanical systems to actual Electrical Systems. This tenureship challenged 
+                                        me to research independently in preparation for upcoming experiments; therefore, 
+                                        allowing me to explore, manage my time, and problem solve to help build my skill 
+                                        base as a tech savvy student.
+                                    </p>
+                                    <p class="wow"><img src="images/lab_photo8.jpg" class="responsive"></p>
+                                        <p class = "caption"><br>Photo: HVEL Waterloo</p>
+                    </div>
+                    <!--High Voltage Lab Finished-->
+                    
+                    <div id="dest4"></div>
+                    <!--FRC Robotics Created-->
+                    <div class="quote">
+                        <spam>FRC Robotics - Tech Experience <p>Janaury 2020</p></spam>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, nulla. Inventore facere repellendus expedita sapiente vero placeat veniam enim nemo accusamus, quae blanditiis ea atque sed numquam mollitia? Rem, quod.</p>
+                        <p class="wow"><img src="images/robotics.PNG" class="responsive"></p>
+                        
+                        <p class="caption"><br>Photo: Robot</p>
+                    </div>
+                    <!--FRC Robotics Finished-->
+
+
+                    <div class="ex1">
+                        <p>Check out my personal non-tech related experiences below </a>.</p>
+                    </div>
+
+                    <div id="dest5"></div>
+                    <!--FRC Robotics Created-->
+                    <div class="quote">
+                        <spam>Part Time Coach for Football For The World<p>September 2018 - Present</p></spam>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, nulla. Inventore facere repellendus expedita sapiente vero placeat veniam enim nemo accusamus, quae blanditiis ea atque sed numquam mollitia? Rem, quod.</p>
+                        <img src="" class="">
+                        <p class="caption"><br>Photo: </p>
+                    </div>
+
+                    <div id="dest6"></div>
+                    <!--FRC Robotics Created-->
+                    <div class="quote">
+                        <spam>Kitchener Youth Action Council<p>Co-Chair 2019-2020, Member 2018 - 2019</p></spam>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, nulla. Inventore facere repellendus expedita sapiente vero placeat veniam enim nemo accusamus, quae blanditiis ea atque sed numquam mollitia? Rem, quod.</p>
+                        <img src="" class="">
+                        <p class="caption"><br>Photo: Robot</p>
+                    </div>
+
+
+                
+                    <!--Contact Box-->
+                    <div class="ex">
+                        <p>To get in touch, you can <a href="mailto:mahan9879@gmail.com">email me</a>.</p>
+                    </div>
+                    <!--Contact Box Finished-->
+                        
+                    <!-- Copywrite Footer-->
+                    <div class="exx">
+                        <p>
+                            <i class="fas fa-copyright"></i> 2021 | Mahan Sharifi-Ghazvini
+                        </p>
+                    </div>
+                    <!--Copywrite Footer Finished-->
+                </div>
+                <!--Container Finished-->
+            
+                <!--Header with Picture, Icon and Title-->
+                    <header>
+                        <div class="titles">
+                            <div class="front">
+                            <h1>Mahan Sharifi-Ghazvini</h1>    
+                            </div>
+                        </div>
+                        <div class="m-icons">
+                            <div class="social-menu">
+                            <ul>
+                                <li><a href="https://www.instagram.com/mahan.sharifii/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href=https://www.linkedin.com/in/mahan-sharifi-05447b1ab/ target="_blank"><i class="fab fa-linkedin"></i></a></li>             
+                            </ul>
+                            </div>
+                            <h3>SCROLL HERE</h3>
+                        </div>
+                    </header>
+                <!--END of Header with Picture, Icon and Title-->
+            </div>
+            <!--End of Right Page-->
+
+
+            <!--Left Page Created-->
+            <div class="left">
+                <!--Container3 Created-->
+                <container3>
+                    <h1>About me!</h1> 
+                        <div class="social-menu2">
+                            <ul>
+                                <li><a href="" target="_blank"><i class="fas fa-university fa-3x"></i></a></li>             
+                            </ul>
+                            <h2>UWaterloo CS</h2>
+                            <p>I'm studying Honours Computer Science with Co-op, class of 2025.</p>
+                        </div>               
+                        <div class="social-menu2">
+                            <ul>
+                                <li><a href="" target="_blank"><i class="fas fa-code fa-3x"></i></a></li>             
+                            </ul>
+                            <h2>Software Developer</h2>
+                            <p>I have always been infatuated by the reliability and precision which
+                                math and software provide; I hope to become a tech savvy developer who is a 
+                                holisitc and creative thinker to solve real world problems.<br><br>Check out my <a href="#p" class="pro-ex">Projects / Experiences</a></p>
+                        </div>
+                </container3>  
+                <!--Container3 Finished-->
+            </div>   
+            <!--Left Page Finshed-->
+        </section>
+        <!--Pages Finished-->
+    </body>
+    <!--Body Done-->
+</html>
