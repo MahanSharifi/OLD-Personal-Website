@@ -190,7 +190,6 @@ header:before {
     display: grid;
     grid-gap: 2em;
     overflow-x: scroll;
-    overflow-y: scroll;
 }
 
 
