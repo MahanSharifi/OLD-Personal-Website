@@ -1,2 +1,4 @@
 # Personal-Website
-This is my personal Website
+Check out my Website.
+You can find all my personal tech projects and experiences on the website
+along with my resume, and handles. :)
