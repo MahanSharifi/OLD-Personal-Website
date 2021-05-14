@@ -592,4 +592,14 @@ header:before {
 
 .quote2 .caption {
       color: #0077B5;
-  }
+}
+
+.left spam {
+    color: #0077B5;
+}
+
+.m-icons h3 a {
+    color:#0077B5;
+    font-weight: bold;
+    font-size: larger;
+}
