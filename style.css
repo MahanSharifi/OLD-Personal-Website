@@ -270,15 +270,7 @@ span{
 }
 
 /*  */
-.ex {
-    color: #fff;
-    background-color: #000000;
-    background: black;
-    margin-left: -15%;
-    margin-right: -5.59%;
-    padding: 5em;
-    margin-top: 2em;
-}
+
 
 /*  */
 
@@ -363,6 +355,16 @@ span{
     color: #0077B5;
 }
 
+.ex {
+    color: #fff;
+    background-color: #000000;
+    background: black;
+    margin-left: -5.59%;
+    margin-right: -5.59%;
+    padding: 5em;
+    margin-top: 2em;
+}
+
 .ex p {
     text-align: center;
     font-size: 40px;
@@ -372,8 +374,8 @@ span{
     color: #fff;
     background-color: #000000;
     background: black;
-    margin-left: -6.8%;
-    margin-right: -6.8%;
+    margin-left: -5.59%;
+    margin-right: -5.59%;
     padding: 2em;
     margin-top: 2em;
 }
